@@ -8,6 +8,7 @@ import { SchemaFormModule, WidgetRegistry, DefaultWidgetRegistry } from "ngx-sch
 import { AgentSelectorComponent } from './agent-selector/agent-selector.component';
 import { WidgetRegistryService } from "./customWidgetRegistry";
 import { ReactiveFormsModule } from '@angular/forms';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     SchemaFormModule.forRoot(),
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule 
+    ReactiveFormsModule,
+    MatCheckboxModule 
   ],
   providers: [{provide: WidgetRegistry, useClass: WidgetRegistryService}],
   bootstrap: [AppComponent]

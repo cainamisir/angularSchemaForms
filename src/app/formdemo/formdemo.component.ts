@@ -12,7 +12,6 @@ export class FormdemoComponent implements OnInit {
   ngOnInit(): void {
   }
   mySchema = {
-   
     "properties": {
       "agent-selector":{
         "widget": "agent-selector",

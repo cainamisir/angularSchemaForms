@@ -1,6 +1,12 @@
-<p *ngFor="let agent of agents">
-    {{agent}}
-</p>
-<button (click) = "handleClick()">
-    click me
-</button>
+<h3>Alocare agenti</h3>
+<hr>
+<div class= "wrapper-selector">
+    <h4>Judet</h4>
+    <div class = "tabel-agenti">
+        <div class="tabel-agenti-cell" *ngFor="let agent of agents">
+            <span>{{agent}}</span>
+            <mat-checkbox (click)="handleSelected(agent)"></mat-checkbox>
+        </div>
+    </div>
+    <button (click) = "logAgents()"></button>
+</div>
