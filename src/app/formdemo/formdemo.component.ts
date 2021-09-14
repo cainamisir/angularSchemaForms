@@ -7,7 +7,6 @@ import Data from "../schemes/data.json";
   styleUrls: ['./formdemo.component.scss']
 })
 export class FormdemoComponent implements OnInit {
-  lastSelected = [];
   mySchema = {};
   myData = {};
   constructor() { }
@@ -20,6 +19,5 @@ export class FormdemoComponent implements OnInit {
   }
   handleEvent(event: any){
     console.log(event);
-    this.lastSelected = event.value[0];
   }
 }
