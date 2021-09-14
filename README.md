@@ -8,8 +8,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## How to use the playground
 
-# Write the SchemaForm in the src/app/schemes/schemaForm.json
+  Write the SchemaForm in the src/app/schemes/schemaForm.json
 
-# The data json will be the src/app/schemes/data.json
+  The data json will be the src/app/schemes/data.json
 
-#The widget will be implemented in the src/app/widget component
+  The widget will be implemented in the src/app/widget component
