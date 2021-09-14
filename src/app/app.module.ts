@@ -5,17 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormdemoComponent } from './formdemo/formdemo.component';
 import { SchemaFormModule, WidgetRegistry, DefaultWidgetRegistry } from "ngx-schema-form";
-import { AgentSelectorComponent } from './agent-selector/agent-selector.component';
 import { WidgetRegistryService } from "./customWidgetRegistry";
 import { ReactiveFormsModule } from '@angular/forms';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import { WidgetComponent } from './widget/widget.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     FormdemoComponent,
-    AgentSelectorComponent
+    WidgetComponent
   ],
   imports: [
     SchemaFormModule.forRoot(),

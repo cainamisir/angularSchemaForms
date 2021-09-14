@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AgentSelectorComponent } from './agent-selector.component';
+import { WidgetComponent } from './widget.component';
 
-describe('AgentSelectorComponent', () => {
-  let component: AgentSelectorComponent;
-  let fixture: ComponentFixture<AgentSelectorComponent>;
+describe('WidgetnouComponent', () => {
+  let component: WidgetComponent;
+  let fixture: ComponentFixture<WidgetComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AgentSelectorComponent ]
+      declarations: [ WidgetComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AgentSelectorComponent);
+    fixture = TestBed.createComponent(WidgetComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

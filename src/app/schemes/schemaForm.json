@@ -1,0 +1,11 @@
+{
+    "properties": {
+      "project":{
+        "widget": "widget",
+        "type": "array",
+        "items":{
+          "type": "string"
+        }
+      }
+  }
+} 
